@@ -116,20 +116,20 @@ class Main {
     // Peter's Question
 
     System.out.println("QUESTION 3");
-    System.out.println("Choose a valid variable assignment: String myStr = ?");
+    System.out.println("Which holiday is Halloween most closely associated with?");
 
-    System.out.println("A. 1");
-    System.out.println("B. 'c'");
-    System.out.println("C. \"myString\"");
-    System.out.println("D. myString");
+    System.out.println("A. Christmas");
+    System.out.println("B. Easter");
+    System.out.println("C. Thanksgiving");
+    System.out.println("D. All Saints' Day");
 
     answer = scnr.nextLine();
 
-    if (answer.equalsIgnoreCase("C")) {
+    if (answer.equalsIgnoreCase("D")) {
       numCorrect++;
       System.out.println("Correct!");
     } else {
-      System.out.println("Incorrect.");
+      System.out.println("Incorrect. It's All Saints' Day");
     }
 
     System.out.println("Press enter to continue.");
@@ -142,20 +142,20 @@ class Main {
     // Frances' Question
 
     System.out.println("QUESTION 4");
-    System.out.println("(Who wrote the 1812 Overture?)");
+    System.out.println("What was candy corn originally called?");
 
-    System.out.println("A.Mozart");
-    System.out.println("B.Dvorak");
-    System.out.println("C.Tchaikovsky");
-    System.out.println("D.Stravinsky");
+    System.out.println("A. Chicken Feed");
+    System.out.println("B. Pumpkin corn");
+    System.out.println("C. Chicken wings");
+    System.out.println("D. Air heads");
 
     answer = scnr.nextLine();
 
-    if (answer.equalsIgnoreCase("C")) {
+    if (answer.equalsIgnoreCase("A")) {
       numCorrect++;
-      System.out.println("Wow! You're so smart! You must have a good taste in music! (and secretly love the Russians)");
+      System.out.println("Lucky guess");
     } else {
-      System.out.println("Are you kidding me? I guess you don't love the Russians!");
+      System.out.println("Wrong! It's chicken feed");
     }
 
     System.out.println("Press enter to continue.");
