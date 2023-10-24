@@ -190,23 +190,23 @@ class Main {
     System.out.flush();
 
     /*-------------------------------------------------------------------------------------------------------------------------*/
-    // Matthew's Question
+    // Sebastian's Question
 
     System.out.println("QUESTION 6");
-    System.out.println("In the song \"Monster Mash,\" who throws a party for monsters?");
+    System.out.println("What's 9 + 10?");
 
-    System.out.println("A. Dr. Frakenstein");
-    System.out.println("B. The Mummy");
-    System.out.println("C. Igor");
-    System.out.println("D. Count Dracula");
+    System.out.println("A. 9");
+    System.out.println("B. 21");
+    System.out.println("C. 19");
+    System.out.println("D. 56");
 
     answer = scnr.nextLine();
 
-    if (answer.equalsIgnoreCase("A")) {
+    if (answer.equalsIgnoreCase("C")) {
       numCorrect++;
-      System.out.println("I see you, Good Work!");
+      System.out.println("Good job!");
     } else if (answer.equalsIgnoreCase("B")) {
-      System.out.println("Get better, the answer is A. Dr. Frakenstein. Just because you lost heres a fun fact Halowwen is now the second largest commercial holiday in the country!.");
+      System.out.println("You are quite dense.");
     } else {
       System.out.println("Incorrect");
     }
@@ -218,23 +218,22 @@ class Main {
     System.out.flush();
 
     /*-------------------------------------------------------------------------------------------------------------------------*/
-    // Matthew's question
+    // Bryan's question
 
     System.out.println("QUESTION 7");
-    System.out.println("What is the name of the famous animated film produced by Tim Burton about a skeleton who discovers a town dedicated to Halloween?");
-
-    System.out.println("A. Corpse Bride");
-    System.out.println("B. Frankenweenie");
-    System.out.println("C. The Nightmare Before Christmas");
-    System.out.println("D. Coraline");
+    System.out.println("What year was Antelope Valley College founded");
+    System.out.println("A. 1929");
+    System.out.println("B. 2020");
+    System.out.println("C. 1895");
+    System.out.println("D. 1738");
 
     answer = scnr.nextLine();
 
-    if (answer.equalsIgnoreCase("C")) {
+    if (answer.equalsIgnoreCase("A")) {
       numCorrect++;
-      System.out.println("You are cooking!! Keep Going!");
+      System.out.println("GOOD STUFF! You have earned one sheckle dont spend it all in one place :)");
     } else {
-      System.out.println("Cannot believe you failed, welp by the way the answer is C. The Nightmare Before Christmas.");
+      System.out.println("AVC is the best how did you get that wrong! No dinner for you tonight!");
     }
     System.out.println("Press enter to continue");
     continueEnter = scnr.nextLine();
